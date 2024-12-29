@@ -11,12 +11,12 @@ boxs.forEach((box)=>{
         
         if(f){
         box.innerText="X";
-        box.style.color="blue";
+        box.style.color="red";
     f=false;
     }
     else{
         box.innerText="O";
-        box.style.color="red";
+        box.style.color="blue";
         f=true;   
     }
     count+=1;
