@@ -16,6 +16,7 @@ boxs.forEach((box)=>{
     }
     else{
         box.innerText="O";
+        box.style.color="red";
         f=true;   
     }
     count+=1;
