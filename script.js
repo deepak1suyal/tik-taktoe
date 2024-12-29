@@ -10,13 +10,15 @@ boxs.forEach((box)=>{
     box.addEventListener("click",() => {
         
         if(f){
+             box.style.color="red";
         box.innerText="X";
-        box.style.color="red";
+       
     f=false;
     }
     else{
-        box.innerText="O";
         box.style.color="blue";
+        box.innerText="O";
+       
         f=true;   
     }
     count+=1;
